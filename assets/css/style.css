@@ -50,3 +50,24 @@ html {
   text-align: center;
   color: #fff;
 }
+
+.text {
+  padding: 1rem 0;
+  color: #fff;
+  text-align: center;
+}
+
+.label {
+  position: relative;
+}
+.label__input {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+.label__icon {
+  position: absolute;
+}
