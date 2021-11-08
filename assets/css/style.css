@@ -2,6 +2,8 @@
 *::after,
 *::before {
   box-sizing: border-box;
+}
+* {
   margin: 0;
   padding: 0;
 }
@@ -9,4 +11,42 @@
 html {
   font-size: 16px;
   font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-azul {
+  background-color: #318ba2;
+}
+.bg-azul-claro {
+  background-color: #32cfd6;
+}
+.navbar {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__contact {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo,
+.navbar__logo-wa {
+  width: 40px;
+}
+
+.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  color: #fff;
 }
