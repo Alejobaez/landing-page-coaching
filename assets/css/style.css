@@ -39,14 +39,16 @@ html {
   align-items: center;
 }
 
-.navbar__logo,
+.navbar__logo {
+  width: 50px;
+}
 .navbar__logo-wa {
   width: 40px;
 }
 
 .title {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
   color: #fff;
 }
@@ -66,8 +68,12 @@ html {
   border: none;
   outline: none;
   border-radius: 0.5rem;
+  padding-left: 2.5rem;
 }
 
 .label__icon {
   position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0.5rem;
 }
