@@ -131,3 +131,7 @@ img {
   z-index: 20;
   position: relative;
 }
+
+.card__image {
+  margin-bottom: 1rem;
+}
