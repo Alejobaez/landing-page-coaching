@@ -72,6 +72,24 @@ img {
   font-size: 1.225rem;
 }
 
+.form {
+  position: relative;
+  z-index: 20;
+}
+
+.form::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/logo-solo.svg);
+  width: 150px;
+  height: 89px;
+  background-repeat: no-repeat;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -1rem;
+}
+
 .label {
   position: relative;
 
@@ -103,6 +121,10 @@ img {
   text-transform: uppercase;
   background-color: #32cfd6;
   color: #fff;
+  position: relative;
+
+  margin-bottom: 6rem;
+  z-index: 20;
 }
 
 .d {
@@ -151,4 +173,21 @@ img {
 .card__text span {
   font-weight: 900;
   display: block;
+}
+
+.about {
+  padding: 0;
+}
+
+.about img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about__text {
+  padding: 1rem 1rem 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: #318ba2;
+  font-weight: bold;
 }
